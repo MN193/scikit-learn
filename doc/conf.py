@@ -303,6 +303,9 @@ redirects = {
     "auto_examples/ensemble/plot_adaboost_hastie_10_2": (
         "auto_examples/ensemble/plot_adaboost_multiclass"
     ),
+    "auto_examples/model_selection/plot_confusion_matrix": (
+        "modules/generated/sklearn.metrics.ConfusionMatrixDisplay"
+    ),
 }
 html_context["redirects"] = redirects
 for old_link in redirects:
