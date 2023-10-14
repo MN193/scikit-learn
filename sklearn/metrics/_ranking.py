@@ -288,6 +288,10 @@ def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
 
     Read more in the :ref:`User Guide <det_curve>`.
 
+    For visualisiation and a comparision of the DET curve against the receiver
+    operating characteristic (ROC) curve, refer to
+    :ref:'sphx_glr_auto_examples_model_selection_plot_det.py'.
+
     .. versionadded:: 0.24
 
     Parameters
@@ -1008,6 +1012,10 @@ def roc_curve(
     Note: this implementation is restricted to the binary classification task.
 
     Read more in the :ref:`User Guide <roc_metrics>`.
+
+    For visualisiation and a comparision of the ROC curve against the detection
+    error tradeoff (DET) curve, refer to
+    :ref:'sphx_glr_auto_examples_model_selection_plot_det.py'.
 
     Parameters
     ----------

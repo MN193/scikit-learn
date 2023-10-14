@@ -1,7 +1,7 @@
 """
-====================================
-Detection error tradeoff (DET) curve
-====================================
+=======================================================================================
+Detection error tradeoff (DET) curve vs. receiver operating characteristic (ROC) curve
+=======================================================================================
 
 In this example, we compare two binary classification multi-threshold metrics:
 the Receiver Operating Characteristic (ROC) and the Detection Error Tradeoff
